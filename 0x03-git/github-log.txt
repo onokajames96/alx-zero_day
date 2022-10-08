@@ -1,0 +1,76 @@
+
+t@80a4fcbea097:/alx-zero_day/0x03-git# git add . && git commit -m "Hot fix" && git push                                            
+
+[master cee482f] Hot fix                                                                                                              
+
+ 3 files changed, 1 insertion(+), 2 deletions(-)                                                                                      
+
+ delete mode 100644 0x03-git/js/index.js                                                                                              
+
+ delete mode 100644 0x03-git/js/main.js                                                                                               
+
+Enumerating objects: 9, done.                                                                                                         
+
+Counting objects: 100% (9/9), done.                                                                                                   
+
+Delta compression using up to 2 threads                                                                                               
+
+Compressing objects: 100% (4/4), done.                                                                                                
+
+Writing objects: 100% (5/5), 479 bytes | 479.00 KiB/s, done.                                                                          
+
+Total 5 (delta 0), reused 0 (delta 0)                                                                                                 
+
+To https://github.com/onokajames96/alx-zero_day.git                                                                                   
+
+   5362add..cee482f  master -> master                                                                                                 
+
+root@80a4fcbea097:/alx-zero_day/0x03-git# git pull                                                                                    
+
+remote: Enumerating objects: 5, done.                                                                                                 
+
+remote: Counting objects: 100% (5/5), done.                                                                                           
+
+remote: Compressing objects: 100% (2/2), done.                                                                                        
+
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0                                                                          
+
+Unpacking objects: 100% (3/3), 678 bytes | 678.00 KiB/s, done.                                                                        
+
+From https://github.com/onokajames96/alx-zero_day                                                                                     
+
+   cee482f..b1482a8  master     -> origin/master                                                                                      
+
+Updating cee482f..b1482a8                                                                                                             
+
+Fast-forward                                                                                                                          
+
+ README.md | 2 +-                                                                                                                     
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)                                                                                        
+
+root@80a4fcbea097:/alx-zero_day/0x03-git# touch up_to_date                                                                            
+
+root@80a4fcbea097:/alx-zero_day/0x03-git# git add . && git commit -m "How to be up to date in git" && git push                        
+
+[master c37f49c] How to be up to date in git                                                                                          
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)                                                                                      
+
+ create mode 100644 0x03-git/up_to_date                                                                                               
+
+Enumerating objects: 5, done.                                                                                                         
+
+Counting objects: 100% (5/5), done.                                                                                                   
+
+Delta compression using up to 2 threads                                                                                               
+
+Compressing objects: 100% (3/3), done.                                                                                                
+
+Writing objects: 100% (3/3), 353 bytes | 353.00 KiB/s, done.                                                                          
+
+Total 3 (delta 1), reused 0 (delta 0)                                                                                                 
+
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.                                                                  
+
+To https://github.com/onokajames96/alx-zero_day.git                                                                                   
